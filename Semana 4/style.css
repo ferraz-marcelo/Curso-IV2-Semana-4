@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.demo-card-wide {
+    width: 25vw;
+}
+
+.mdl-card__title {
+    background-color: rgb(63,81,181);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+label {
+    color: black;
+}
+
+input {
+    width: 20vw;
+    
+}
+
+textarea {
+    width: 20vw;
+
+}
+
+.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect {
+    background-color: rgb(63,81,181);  
+    color: white;
+    transition-duration: 1,5s;
+    transform: translateY(-2px)
+    
+}
+
+.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect:hover {
+    background-color: blue;
+    transform: scale(1.1);
+    
+}
+
+.mdl-card__actions.mdl-card--border {
+    text-align: center;
+    justify-content: center;
+}
+
+/* CONSULTA */
+
+#tabela {
+    border: 1px solid  rgb(63,81,181);
+    color: rgb(63,81,181);
+    width: 30vw;
+    border-spacing: 1.5vw;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35vw;
+    cursor: pointer;
+
+}
+
+tr:hover {
+    background-color: skyblue;
+}
+
+.pesquisa {
+    margin-left: 35vw;
+    
+}
+
+.caixapesquisa {
+    color: rgb(63,81,181);
+}
